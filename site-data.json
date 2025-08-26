@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "name": "Aayush Kumar",
+    "tagline": "Data science student building APIs and web applications",
+    "location": "Goleta, CA (UCSB) / Simi Valley, CA",
+    "email": "aayushkumar@ucsb.edu",
+    "phone": "805-231-9540",
+    "links": {
+      "github": "https://github.com/aayush0505",
+      "linkedin": "https://www.linkedin.com/in/aayush-kumar-701b68216",
+      "resume": ""
+    }
+  },
+  "about": {
+    "summary": "Data Science and Statistics undergraduate at UCSB with experience building REST APIs, web apps, and data workflows. Comfortable across Python/TypeScript stacks, with interests in quantitative systems and product reliability."
+  },
+  "experience": [
+    {
+      "title": "Software Engineer Intern",
+      "company": "Swopband",
+      "location": "London (Remote)",
+      "date": "Apr 2025 – Jun 2025",
+      "bullets": [
+        "Developed REST APIs in Express.js/Node.js/MySQL powering mobile and web clients.",
+        "Streamlined founder–developer communication to accelerate feature delivery.",
+        "Executed end-to-end test passes to catch regressions and UX issues early."
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Leyland Cypress",
+      "location": "Remote",
+      "date": "Dec 2024 – Jan 2025",
+      "bullets": [
+        "Built a company website with TypeScript, Firebase, and AWS hosting.",
+        "Implemented a daily Cron job to fetch data and render performance charts.",
+        "Proposed UI improvements and visual design options to stakeholders."
+      ]
+    },
+    {
+      "title": "QA Tester",
+      "company": "Biometric Edge",
+      "location": "Remote",
+      "date": "Mar 2023 – Jul 2023",
+      "bullets": [
+        "Ran stress tests and identified 15+ critical bugs, improving reliability.",
+        "Coordinated with engineers and PMs to speed up fixes and releases."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of California, Santa Barbara",
+      "degree": "B.S. in Data Science and Statistics",
+      "location": "Santa Barbara, CA",
+      "date": "Aug 2023 – May 2027",
+      "bullets": [
+        "Coursework: Data Structures and Algorithms, R, SAS, Linear Regressions, Statistics, Machine Learning",
+        "Activities: Data Science Club, Intramural Soccer, Intramural Basketball"
+      ]
+    },
+    {
+      "school": "Royal High School",
+      "degree": "High School Diploma (4.7 WGPA)",
+      "location": "Simi Valley, CA",
+      "date": "Aug 2019 – Jun 2023",
+      "bullets": [
+        "APs: Calculus BC, Computer Science A, Statistics, Physics C",
+        "Leadership: Academic Decathlon President; AP Calculus & AP Physics Tutor"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "SQL", "JavaScript", "TypeScript", "HTML/CSS", "R", "SAS"],
+    "frameworks": ["React", "Node.js"],
+    "libraries": ["pandas", "NumPy", "Matplotlib"],
+    "tools": ["Git", "Docker", "Firebase", "VS Code", "AWS", "Cursor"]
+  },
+  "certifications": [
+    { "name": "SAS Certified Specialist: Base Programming Using SAS 9.4", "issuer": "SAS", "date": "" }
+  ],
+  "awards": [
+    { "name": "Regional Math (2nd)", "org": "Academic Decathlon", "note": "" },
+    { "name": "Regional Economics (1st)", "org": "Academic Decathlon", "note": "" }
+  ],
+  "tests": { "SAT": "1520 (800 Math, 720 Reading/Writing)", "ACT": "35" }
+}
+
+
