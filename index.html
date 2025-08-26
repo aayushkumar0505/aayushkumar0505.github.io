@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name</title>
+  <link rel="icon" href="favicon.ico">
+  <meta name="description" content="Personal website of Your Name">
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.6; }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 { margin-bottom: 0.25rem; }
+    nav a { margin-right: 1rem; }
+    .card { padding: 1rem; border: 1px solid #ddd; border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Your Name</h1>
+      <p>Developer • Student • Whatever-you-like</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="mailto:you@example.com">Contact</a>
+      </nav>
+      <hr>
+    </header>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Short bio goes here. What you do, what you’re into, where you’re based.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/<your-username>/<repo>">Cool Project</a> — one-line blurb.</li>
+      </ul>
+    </section>
+
+    <footer><hr><small>© <span id="y"></span> Your Name</small></footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
