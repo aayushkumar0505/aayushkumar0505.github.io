@@ -5,41 +5,96 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Aayush Kumar</title>
   <link rel="icon" href="favicon.ico">
-  <meta name="description" content="Personal website of Your Name">
+  <meta name="description" content="Personal website of Aayush Kumar — Data Science & Statistics @ UCSB (2027)">
   <style>
     body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.6; }
     .container { max-width: 800px; margin: 0 auto; }
     h1 { margin-bottom: 0.25rem; }
     nav a { margin-right: 1rem; }
     .card { padding: 1rem; border: 1px solid #ddd; border-radius: 12px; }
+    .muted { color: #555; }
+    ul { padding-left: 1.25rem; }
+    section { margin-top: 1.5rem; }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Aayush Kumar</h1>
-      <p>UCSB 2027</p>
+      <p class="muted">Data Science & Statistics @ UCSB (2027) • Goleta / Simi Valley</p>
       <nav>
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="mailto:you@example.com">Contact</a>
+        <a href="mailto:aayushkumar@ucsb.edu">Contact</a>
       </nav>
+      <p>
+        <a href="mailto:aayushkumar@ucsb.edu">aayushkumar@ucsb.edu</a> · 
+        <a href="tel:+18052319540">805‑231‑9540</a> · 
+        <a href="https://github.com/aayush0505" target="_blank" rel="noopener">GitHub</a> · 
+        <a href="https://www.linkedin.com/in/aayush-kumar-701b68216" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
       <hr>
     </header>
 
     <section id="about" class="card">
       <h2>About</h2>
-      <p>Short bio goes here. What you do, what you’re into, where you’re based.</p>
+      <p>I’m a UCSB Data Science & Statistics student who enjoys building clean, reliable software and learning from real-world data. Recently, I’ve shipped REST APIs, built simple UIs, and tested end‑to‑end flows for early‑stage products.</p>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <h3>Software Engineer Intern — Swopband (London, Remote) · Apr–Jun 2025</h3>
+      <ul>
+        <li>Built REST APIs with Express.js, Node.js, and MySQL for mobile/web apps.</li>
+        <li>Streamlined dev–founder communication and tested end‑to‑end user flows.</li>
+      </ul>
+      <h3>Web Developer — Leyland Cypress (Remote) · Dec 2024–Jan 2025</h3>
+      <ul>
+        <li>Created a website using TypeScript, Firebase, and AWS with daily Cron data fetches.</li>
+        <li>Proposed UI ideas and implemented performance charts.</li>
+      </ul>
+      <h3>QA Tester — Biometric Edge (Remote) · Mar–Jul 2023</h3>
+      <ul>
+        <li>Ran stress tests and documented 15+ critical bugs to improve reliability.</li>
+        <li>Collaborated with engineers and PMs to accelerate fixes and releases.</li>
+      </ul>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <h3>UC Santa Barbara — B.S. Data Science & Statistics · Aug 2023–May 2027</h3>
+      <p class="muted">Courses: Data Structures & Algorithms, R, SAS, Linear Regression, Statistics, Machine Learning · Activities: Data Science Club, Intramural Soccer/Basketball</p>
+      <h3>Royal High School, Simi Valley — 4.7 WGPA · Aug 2019–Jun 2023</h3>
+      <p class="muted">APs: Calculus BC, Computer Science A, Statistics, Physics C · Academic Decathlon President; AP Calculus & AP Physics Tutoring</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Python, SQL, JavaScript/TypeScript, HTML/CSS, R, SAS</p>
+      <p><strong>Frameworks:</strong> React, Node.js</p>
+      <p><strong>Libraries:</strong> pandas, NumPy, Matplotlib</p>
+      <p><strong>Tools:</strong> Git, Docker, Firebase, AWS, VS Code, Cursor</p>
+    </section>
+
+    <section id="certs" class="card">
+      <h2>Certifications</h2>
+      <p>SAS Certified Specialist: Base Programming Using SAS 9.4</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/<your-username>/<repo>">Cool Project</a> — one-line blurb.</li>
-      </ul>
+      <p>See my work on <a href="https://github.com/aayush0505" target="_blank" rel="noopener">GitHub</a>.</p>
     </section>
 
-    <footer><hr><small>© <span id="y"></span> Your Name</small></footer>
+    <section id="achievements" class="card">
+      <h2>Achievements</h2>
+      <p>Academic Decathlon: Regional Economics (1st), Regional Math (2nd) · SAT 1520 (800 Math) · ACT 35 · AP National Honor With Distinction</p>
+    </section>
+
+    <footer><hr><small>© <span id="y"></span> Aayush Kumar</small></footer>
   </div>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
