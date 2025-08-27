@@ -7,14 +7,174 @@
   <link rel="icon" href="favicon.ico">
   <meta name="description" content="Personal website of Aayush Kumar — Data Science & Statistics @ UCSB (2027)">
   <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.6; }
-    .container { max-width: 800px; margin: 0 auto; }
-    h1 { margin-bottom: 0.25rem; }
-    nav a { margin-right: 1rem; }
-    .card { padding: 1rem; border: 1px solid #ddd; border-radius: 12px; }
-    .muted { color: #555; }
-    ul { padding-left: 1.25rem; }
-    section { margin-top: 1.5rem; }
+    :root {
+      --ucsb-blue: #003262;
+      --ucsb-gold: #FDB515;
+      --ucsb-blue-light: #004a8c;
+      --ucsb-gold-light: #FFD700;
+      --text-dark: #1a1a1a;
+      --text-light: #ffffff;
+      --background-light: #f8f9fa;
+      --border-color: #e0e6ed;
+    }
+    
+    body { 
+      font-family: system-ui, sans-serif; 
+      margin: 0; 
+      line-height: 1.6; 
+      background: var(--ucsb-gold);
+      color: var(--ucsb-blue);
+    }
+    
+    .container { 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 2rem;
+    }
+    
+    h1 { 
+      margin-bottom: 0.25rem; 
+      color: var(--ucsb-blue);
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 50, 98, 0.1);
+    }
+    
+    h2 {
+      color: var(--ucsb-blue);
+      border-bottom: 3px solid var(--ucsb-blue);
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+    
+    h3 {
+      color: var(--ucsb-blue);
+      margin-top: 1.5rem;
+    }
+    
+    nav a { 
+      margin-right: 1rem; 
+      color: var(--text-light);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      background: var(--ucsb-blue);
+      color: var(--text-light);
+    }
+    
+    nav a:hover {
+      background: var(--ucsb-blue-light);
+      color: var(--text-light);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 50, 98, 0.3);
+    }
+    
+    .card { 
+      padding: 1.5rem; 
+      border: 2px solid var(--ucsb-blue); 
+      border-radius: 12px; 
+      background: var(--ucsb-blue);
+      color: var(--text-light);
+      box-shadow: 0 4px 6px rgba(0, 50, 98, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 1.5rem;
+    }
+    
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 15px rgba(0, 50, 98, 0.4);
+    }
+    
+    .muted { 
+      color: #e0e6ed; 
+    }
+    
+    ul { 
+      padding-left: 1.25rem; 
+    }
+    
+    section { 
+      margin-top: 1.5rem; 
+    }
+    
+    a {
+      color: var(--ucsb-gold);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    a:hover {
+      color: var(--ucsb-gold-light);
+    }
+    
+    header {
+      background: var(--ucsb-blue);
+      color: var(--text-light);
+      padding: 2rem;
+      margin: -2rem -2rem 2rem -2rem;
+      border-radius: 0 0 20px 20px;
+      text-align: center;
+    }
+    
+    header h1 {
+      color: var(--ucsb-gold);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    header p, header a {
+      color: var(--text-light);
+    }
+    
+    header a:hover {
+      color: var(--ucsb-gold);
+    }
+    
+    hr {
+      border: none;
+      height: 2px;
+      background: var(--ucsb-blue);
+      margin: 2rem 0;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 2rem;
+      background: var(--ucsb-blue);
+      color: var(--text-light);
+      border-radius: 20px;
+    }
+    
+    footer small {
+      color: var(--ucsb-gold);
+    }
+    
+    #skills strong {
+      color: var(--ucsb-gold);
+    }
+    
+    #achievements p {
+      background: var(--ucsb-blue);
+      color: var(--text-light);
+      padding: 1rem;
+      border-radius: 8px;
+      font-weight: bold;
+      border: 2px solid var(--ucsb-gold);
+    }
+    
+    /* Make all text in cards white for better contrast */
+    .card p, .card h3, .card ul, .card li {
+      color: var(--text-light);
+    }
+    
+    /* Ensure links in cards are visible */
+    .card a {
+      color: var(--ucsb-gold);
+    }
+    
+    .card a:hover {
+      color: var(--ucsb-gold-light);
+    }
   </style>
 </head>
 <body>
