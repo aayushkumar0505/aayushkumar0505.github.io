@@ -167,6 +167,11 @@
       color: var(--text-light);
     }
     
+    /* Make headings inside cards gold for visibility */
+    .card h2, .card h3 {
+      color: var(--ucsb-gold);
+    }
+    
     /* Ensure links in cards are visible */
     .card a {
       color: var(--ucsb-gold);
@@ -201,7 +206,7 @@
 
     <section id="about" class="card">
       <h2>About</h2>
-      <p>I’m a UCSB Data Science & Statistics student who enjoys building clean, reliable software and learning from real-world data. Recently, I’ve shipped REST APIs, built simple UIs, and tested end‑to‑end flows for early‑stage products.</p>
+      <p>I’m a UCSB Data Science & Statistics student who enjoys building clean, reliable software and learning from real-world data. Recently, I’ve shipped REST APIs, built simple UIs, and tested end‑to‑end flows for early‑stage products. Currently studying topics in Machine Learning and Computer Vision.</p>
     </section>
 
     <section id="experience" class="card">
@@ -244,9 +249,11 @@
       <p>SAS Certified Specialist: Base Programming Using SAS 9.4</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="card">
       <h2>Projects</h2>
-      <p>See my work on <a href="https://github.com/aayush0505" target="_blank" rel="noopener">GitHub</a>.</p>
+      <h3>Soccer Analysis Project</h3>
+      <p>Developed a computer vision system using YOLO v5 and OpenCV in Python to analyze soccer gameplay footage. The project focuses on player tracking, ball detection, tracking algorithms, kmeans clustering to categorize players into teams, and optical flow to correct for camera movement.</p>
+      <p>See more of my work on <a href="https://github.com/aayushkumar0505/FootballAnalysis" target="_blank" rel="noopener">GitHub</a>.</p>
     </section>
 
     <section id="achievements" class="card">
